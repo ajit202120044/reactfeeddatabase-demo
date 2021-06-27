@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.feed{
+  float: right;
+display: flex;
+box-shadow:2px 2px 20px rgb(226, 130, 101) ;
+ 
+font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+header,
+footer {
+  width: 100vw;
+  height: 8vh;
+  color: #ece8f0ea;
+  background-color: #221d1e;
+  display: flex;
+  box-shadow: 2px 2px 20px rgb(51, 214, 100);
+}
+
+header {
+  align-items: center;
+}
+
+header div {
+  margin-left: 40px;
+  float: right;
+  display: flex;
+  box-shadow:2px 2px 20px rgb(226, 130, 101) ;
+}
+
+main {
+  height: cover;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(170, 29, 88, 0.26);
+}
+
+.left-container {
+  height: 80vh;
+  background-color: #f3ecef;
+  margin: 1em 50px 20px 10%;
+  border-radius: 13px;
+  box-shadow: 2px 2px 20px rgb(216, 153, 16);
+  padding: 20px 20px 40px 20px;
+}
+.left-container span {
+  color: red;
+  font-size: 20px;
+}
+footer span {
+  color: rgb(242, 240, 245);
+  align-items: center;
+}
+
+label {
+  color: #1a2296;
+  font-size: 1.2em;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  border: 1px solid rgb(226, 130, 101);
+  box-shadow: 2px 2px 20px rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgba(128, 141, 121, 0.267);
+  margin-bottom: 10px;
+}
+
+.typ-txt {
+  height: 2em;
+  width: 20em;
+  position: relative;
+}
+
+textarea {
+  height: 10em;
+  width: 100%;
+}
+
+.gen {
+  color: #0a7a4c;
+  font-size: 1.4em;
+  margin-left: 30px;
+}
+
+button {
+  margin-right: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.right-container {
+  width: 50vw;
+  height: cover;
+  background-color: rgb(250, 247, 243);
+  margin: 1em 1em 20px 1em;
+  border-radius: 15px;
+  box-shadow: 2px 0px 10px blueviolet;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #18676e;
+  text-align: center;
+}
+
+.feedback-card {
+  width: 90%;
+  /* height: 100px; */
+  background-color: #444851;
+  margin: 10px 5px 0vw 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #ffff;
+  position: relative;
+}
+
+.feedback-head {
+  color: gold;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.feedback-body {
+  /* color: hotpink; */
+  color: lightgreen;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class="right-container"] {
+    width: 90%;
+  }
+  [class="left-container"] {
+    width: 90%;
+  }
+}
