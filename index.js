@@ -13,8 +13,9 @@ mongoose.connect('mongodb+srv://ajit:ajitkumar@cluster0.it1tr.mongodb.net/feedba
 
 
 const feedbackSchema = new mongoose.Schema({
-    name:String,
-    feedback:String
+    name:String,  
+     feedback:String
+ 
 })
 
 
